@@ -13,7 +13,7 @@
 🚀 Objectif : devenir un **développeur fullstack complet** avec une forte sensibilité produit
 
 💬 Je code actuellement en :  
-- **C# **
+- **C#**
 - **PHP, JavaScript, HTML, CSS**
 - **SQL (MySQL)**  
 📚 Prochainement : **React.js**
