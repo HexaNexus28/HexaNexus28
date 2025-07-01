@@ -1,8 +1,48 @@
-### 👋 Hi, I’m @HexaNexus28
+<!-- Bannière de profil -->
+<p align="center">
+  ![Bannière LinkedIn Architecte Moderne Blanc et Noir](https://github.com/user-attachments/assets/67229a89-9e29-4f5e-bc82-546f4d6b0ce4)
 
-- 👀 I’m interested in building powerful **web apps**, **games**, and crafting interactive digital experiences.  
-- 🌱 I’m currently learning **React**, **C#**, **3D programming** and sharpening my skills in **JavaScript**, **PHP**, **MySQL**.  
-- 💞️ I’m looking to collaborate on open-source projects, educational tools, or anything with creative tech and a good challenge.  
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/yawozoglo), Email – or just summon me with a pull request 🧙‍♂️  
-- 😄 Pronouns: He/Him  
+</p>
 
+---
+
+## 👋 Salut, moi c’est Valère ZOGLO
+
+🎓 Étudiant ingénieur à l'ESIEA (promo 2027)  
+🧠 Développeur web & logiciel – curieux, rigoureux, affamé de connaissances  
+🚀 Objectif : devenir un **développeur fullstack complet** avec une forte sensibilité produit
+
+💬 Je code actuellement en :  
+- **C# POO**
+- **PHP, JavaScript, HTML, CSS**
+- **SQL (MySQL)**  
+📚 Prochainement : **React.js**
+
+---
+
+## 🧩 Ce que je fais (ou rêve de faire)
+
+### 🔧 1. Projets techniques que je développe
+> Petit à petit, je construis un écosystème autour de mes compétences :
+- Une plateforme de recettes avec quiz interactif
+- Des outils d'automatisation simples en PHP/JS
+- Un jeu d’échecs codé en PHP & React (soon™)
+
+🛠️ Toujours prêt à résoudre un bug ou repenser une base de données mal fichue.
+
+---
+
+### 🔮 2. Un peu de vision : ce qui me passionne et m’anime
+
+- ✨ **Lier technologie et impact humain** (accessibilité, ludification, éducation)
+- 🤖 **Créer du code qui respire la logique** (architecture propre, scalable)
+- 🍔 **Fusionner cuisine & code**, dans des expériences interactives surprenantes
+- ♟️ Et dominer le monde… ou au moins, le GitHub Game of Life.
+
+---
+
+## 📬 Tu veux discuter code, projets ou alternance ?
+Contacte-moi ici, ou sur [LinkedIn](https://www.linkedin.com/in/valere-zoglo/)  
+Je suis ouvert aux collaborations, aux défis techniques et aux bonnes idées.
+
+---
