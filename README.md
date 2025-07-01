@@ -42,7 +42,7 @@
 ---
 
 ## 📬 Tu veux discuter code, projets ou alternance ?
-Contacte-moi ici, ou sur [LinkedIn](https://www.linkedin.com/in/valere-zoglo/)  
+Contacte-moi ici, ou sur [LinkedIn](https://www.linkedin.com/in/yawozoglo/)  
 Je suis ouvert aux collaborations, aux défis techniques et aux bonnes idées.
 
 ---
