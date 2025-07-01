@@ -6,14 +6,14 @@
 
 ---
 
-## 👋 Salut, moi c’est Valère ZOGLO
+## 👋 Salut, moi c’est Yawo ZOGLO
 
-🎓 Étudiant ingénieur à l'ESIEA (promo 2027)  
+🎓 Étudiant ingénieur à l'ESIEA  
 🧠 Développeur web & logiciel – curieux, rigoureux, affamé de connaissances  
 🚀 Objectif : devenir un **développeur fullstack complet** avec une forte sensibilité produit
 
 💬 Je code actuellement en :  
-- **C# POO**
+- **C# **
 - **PHP, JavaScript, HTML, CSS**
 - **SQL (MySQL)**  
 📚 Prochainement : **React.js**
