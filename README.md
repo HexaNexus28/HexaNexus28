@@ -1,6 +1,6 @@
 <!-- Bannière de profil -->
 <p align="center">
-  <img src="https://github.com/HexaNexus28/HexaNexus28/blob/main/Banni%C3%A8re%20LinkedIn%20Architecte%20Moderne%20Blanc%20et%20Noir.png" alt="Valère ZOGLO - Développeur Fullstack" />
+  <img src="https://github.com/HexaNexus28/HexaNexus28/blob/main/Bannière LinkedIn Architecte Moderne Blanc et Noir_2.png" alt="Valère ZOGLO - Développeur Fullstack" />
 </p>
 
 
