@@ -36,7 +36,7 @@
 
 - ✨ **Lier technologie et impact humain** (accessibilité, ludification, éducation)
 - 🤖 **Créer du code qui respire la logique** (architecture propre, scalable)
-- 🍔 **Fusionner cuisine & code**, dans des expériences interactives surprenantes
+
   .
 
 ---
