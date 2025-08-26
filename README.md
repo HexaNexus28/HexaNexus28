@@ -20,7 +20,7 @@
 
 ---
 
-## 🧩 Ce que je fais (ou rêve de faire)
+## 🧩 Ce que je fais 
 
 ### 🔧 1. Projets techniques que je développe
 > Petit à petit, je construis un écosystème autour de mes compétences :
@@ -28,7 +28,7 @@
 - Des outils d'automatisation simples en PHP/JS
 - Un jeu d’échecs codé en PHP & React (soon™)
 
-🛠️ Toujours prêt à résoudre un bug ou repenser une base de données mal fichue.
+🛠️ Toujours prêt à résoudre un bug .
 
 ---
 
