@@ -16,7 +16,7 @@
 - **C#**
 - **PHP, JavaScript, HTML, CSS**
 - **SQL (MySQL)**  
-📚 Prochainement : **React.js**
+- **React.js**
 
 ---
 
