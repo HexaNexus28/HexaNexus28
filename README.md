@@ -3,7 +3,6 @@
   <img src="https://github.com/HexaNexus28/HexaNexus28/blob/main/Bannière LinkedIn Architecte Moderne Blanc et Noir_2.png" alt="Valère ZOGLO - Développeur Fullstack" />
 </p>
 
-
 ---
 
 ## 👋 Salut, moi c’est Yawo ZOGLO
@@ -28,21 +27,31 @@
 - Des outils d'automatisation simples en PHP/JS
 - Un jeu d’échecs codé en PHP & React (soon™)
 
-🛠️ Toujours prêt à résoudre un bug .
+🛠️ Toujours prêt à résoudre un bug.
+
+---
+
+### 🌐 Mon portfolio
+
+👉 [Découvrir mon portfolio](https://yawo-portfolio.vercel.app)
 
 ---
 
 ### 🔮 2. Un peu de vision : ce qui me passionne et m’anime
 
-- ✨ **Lier technologie et impact humain** (accessibilité, ludification, éducation)
+- ✨ **Lier technologie et impact humain** (accessibilité, ludification, éducation)  
 - 🤖 **Créer du code qui respire la logique** (architecture propre, scalable)
 
-  .
+---
+
+## 📊 Mes contributions GitHub
+
+[Voir mes contributions](https://github.com/HexaNexus28?tab=overview&from=2025-01-01&to=2025-12-31)
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=HexaNexus28&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
 ---
 
 ## 📬 Tu veux discuter code, projets ou alternance ?
 Contactez-moi ici, ou sur [LinkedIn](https://www.linkedin.com/in/yawozoglo/)  
 Je suis ouvert aux collaborations, aux défis techniques et aux bonnes idées.
-
----
