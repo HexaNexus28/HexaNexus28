@@ -1,6 +1,6 @@
 <!-- Bannière de profil -->
 <p align="center">
-  <img src="https://github.com/HexaNexus28/HexaNexus28/blob/main/Bannière LinkedIn Architecte Moderne Blanc et Noir_2.png" alt="Valère ZOGLO - Développeur Fullstack" />
+  <img src="https://github.com/HexaNexus28/HexaNexus28/blob/main/Bannière%20LinkedIn%20Architecte%20Moderne%20Blanc%20et%20Noir_2.png" alt="Valère ZOGLO - Développeur Fullstack" />
 </p>
 
 ---
@@ -8,50 +8,52 @@
 ## 👋 Salut, moi c’est Yawo ZOGLO
 
 🎓 Étudiant ingénieur à l'ESIEA  
-🧠 Développeur web & logiciel – curieux, rigoureux, affamé de connaissances  
-🚀 Objectif : devenir un **développeur fullstack complet** avec une forte sensibilité produit
+🧠 Développeur web & logiciel – curieux, rigoureux, un peu obsédé par le code 😅  
+🚀 Objectif : devenir un **développeur fullstack complet**, capable de coder proprement et vite
 
-💬 Je code actuellement en :  
-- **C#**
-- **PHP, JavaScript, HTML, CSS**
+💬 Je code en ce moment sur :  
+- **C#**  
+- **PHP, JavaScript, HTML, CSS**  
 - **SQL (MySQL)**  
 - **React.js**
 
 ---
 
-## 🧩 Ce que je fais 
+## 🧩 Ce que je fais
 
-### 🔧 1. Projets techniques que je développe
-> Petit à petit, je construis un écosystème autour de mes compétences :
-- Une plateforme de recettes avec quiz interactif
-- Des outils d'automatisation simples en PHP/JS
-- Un jeu d’échecs codé en PHP & React (soon™)
+### 🔧 Projets en cours
+- Une **plateforme de recettes avec quiz interactif** (côté fun et engagement)  
+- Des **outils d’automatisation** en PHP/JS pour gagner du temps  
+- Un **jeu d’échecs en PHP & React** (encore en chantier 😎)  
 
-🛠️ Toujours prêt à résoudre un bug.
+🛠️ Bref, je bidouille tout ce qui peut être codé pour apprendre et progresser.
 
 ---
 
 ### 🌐 Mon portfolio
-
-👉 [Découvrir mon portfolio](https://yawo-portfolio.vercel.app)
-
----
-
-### 🔮 2. Un peu de vision : ce qui me passionne et m’anime
-
-- ✨ **Lier technologie et impact humain** (accessibilité, ludification, éducation)  
-- 🤖 **Créer du code qui respire la logique** (architecture propre, scalable)
+Tu veux voir mes projets en vrai ?  
+👉 [Mon portfolio](https://yawo-portfolio.vercel.app)
 
 ---
 
-## 📊 Mes contributions GitHub
+### 🔮 Ce qui m’anime
+- Faire du code qui **fonctionne et qui a du sens**  
+- Lier tech et impact humain : apprentissage, accessibilité, petits hacks utiles  
+- Toujours apprendre, tester, corriger, recommencer  
 
-[Voir mes contributions](https://github.com/HexaNexus28?tab=overview&from=2025-01-01&to=2025-12-31)
+---
+
+## 📊 GitHub
+J’essaye de pousser régulièrement mes projets et mes expérimentations :  
+
+[Voir mes contributions](https://github.com/HexaNexus28?tab=overview&from=2025-01-01&to=2025-12-31)  
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=HexaNexus28&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
 ---
 
-## 📬 Tu veux discuter code, projets ou alternance ?
-Contactez-moi ici, ou sur [LinkedIn](https://www.linkedin.com/in/yawozoglo/)  
-Je suis ouvert aux collaborations, aux défis techniques et aux bonnes idées.
+## 📬 Entrons en contact !
+- Si tu veux parler **tech, projets ou alternance**, envoie-moi un message !  
+- Ou passe sur [LinkedIn](https://www.linkedin.com/in/yawozoglo/)  
+
+💡 Toujours ouvert aux idées, collaborations et défis un peu fous.
