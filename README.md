@@ -24,7 +24,7 @@
 ### 🔧 Projets en cours
 - Une **plateforme de recettes avec quiz interactif** (côté fun et engagement)  
 - Des **outils d’automatisation** en PHP/JS pour gagner du temps  
-- Un **jeu d’échecs en PHP & React** (encore en chantier 😎)  
+- Un **jeu d’échecs en C# & React** (encore en chantier 😎)  
 
 🛠️ Bref, je bidouille tout ce qui peut être codé pour apprendre et progresser.
 
