@@ -1,6 +1,6 @@
 <!-- Bannière dynamique -->
 <p align="center">
-  <img src="https://github.com/HexaNexus28/HexaNexus28/blob/main/Design%20sans%20titre.png" alt="Yawo ZOGLO — Architecte de l'Invisible | Bricoleur de Logique" width="100%" />
+  <img src="https://github.com/HexaNexus28/HexaNexus28/blob/main/!DOCTYPE%20html%20html%20lang%3Dfr%20head%20meta%20charset%3DUTF-8%20meta%20name%3Dviewport%20content%3Dwidth%3Ddevice-width%2C%20initial-scale%3D1.0%20titleBanni%C3%A8re%20LinkedIn%20-%20Yawo%20ZOGLOtitle%20script%20src%3Dhttpscdn.tailwindcss.comscri.png" alt="Yawo ZOGLO — Architecte de l'Invisible | Bricoleur de Logique" width="100%" />
 </p>
 
 ---
