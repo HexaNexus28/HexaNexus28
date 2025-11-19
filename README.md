@@ -112,7 +112,7 @@ D) Tomates
 
 </details>
   
-### **API de Micro-Transactions (Node.js + MySQL)**
+### **💰API de Micro-Transactions (Node.js + MySQL)**
 Backend pour gérer les achats d’items dans les jeux.
 
 Gestion inventaire et transactions sécurisées
@@ -151,7 +151,7 @@ public class ItemController : ControllerBase
 ```
 </details>
 
-### **Journal Éducatif (PHP + MySQL + JS)**
+### **📚 Journal Éducatif (PHP + MySQL + JS)**
 Site éducatif interactif pour élèves et enseignants.
 
 Articles, livres, ressources pédagogiques
@@ -172,7 +172,7 @@ $articles = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ```
 </details>
 
-### **My-Widget-App (React + Vite + Electron)**
+### **🎵 My-Widget-App (React + Vite + Electron)**
 Application desktop pour écouter YouTube.
 
 Lecture en arrière-plan, interface minimaliste
