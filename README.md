@@ -8,7 +8,9 @@
 ##  **Yawo ZOGLO**
 
 
-📍 **Paris, FR** | 🎓 **Étudiant-ingénieur ESIEA** | 🌐 [Portfolio](https://yawo-portfolio.vercel.app) | 💼 [LinkedIn](https://www.linkedin.com/in/yawozoglo)
+📍 **Paris, FR** | 🎓 **Étudiant-ingénieur ESIEA** | 🌐 <a href="https://yawo-portfolio.vercel.app" target="_blank">Portfolio</a>
+ | 💼 <a href="https://www.linkedin.com/in/yawozoglo" target="_blank">LinkedIn</a>
+
 
 ---
 
@@ -158,7 +160,7 @@ Système de commentaires et likes
 
 Statut: ✅ Actif
 
-🌐 URL : [Journal Educatif](https://www.journaleducatif.com)
+🌐 URL : <a href="https://www.journaleducatif.com" target="_blank">Journal Educatif</a>
 
 <details> <summary><b>📖 Extrait de code PHP</b></summary>
 
