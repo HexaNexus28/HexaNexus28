@@ -75,8 +75,7 @@ for (int j = 0; j < 7; j++)
 </details>
 
 
-### **🍳 Cookify - Plateforme Culinaire Interactive
-PHP/MySQL + Quiz Multijoueur Temps Réel**
+### **🍳 Cookify - Plateforme Culinaire Interactive PHP/MySQL + Quiz Multijoueur Temps Réel**
 
 
 Plateforme web dédiée à la cuisine et découverte culinaire :
