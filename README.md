@@ -13,7 +13,7 @@
 ---
 
 ## 🧬 **Mon ADN Technique**
-*(Ce que je manipule quand je ne rêve pas de machines auto-réparantes)*
+
 
 | **Écosystème**       | **Outils & Philosophies**                                                                 |
 |----------------------|------------------------------------------------------------------------------------------|
