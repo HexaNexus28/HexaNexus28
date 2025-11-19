@@ -8,7 +8,7 @@
 ##  **Yawo ZOGLO**
 
 
-📍 **Paris, FR** | 🎓 **Étudiant-ingénieur ESIEA** | 🌐 <a href="https://yawo-portfolio.vercel.app" target="_blank">Portfolio</a>
+📍 **Paris, FR** | 🎓 **Étudiant-Apprenti Développeur logiciel ESIEA** | 🌐 <a href="https://yawo-portfolio.vercel.app" target="_blank">Portfolio</a>
  | 💼 <a href="https://www.linkedin.com/in/yawozoglo" target="_blank">LinkedIn</a>
 
 
