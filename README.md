@@ -184,11 +184,15 @@ Repo: [Lien](https://github.com/HexaNexus28/music-widget.git)
 ```javascript
 Copier le code
 // Création de la fenêtre principale
-const mainWindow = new BrowserWindow({
-  width: 800,
-  height: 600,
-  webPreferences: { nodeIntegration: true }
-});
+function createWindow() {
+    mainWindow = new BrowserWindow({
+        width: 800,
+        height: 600,
+        webPreferences: {
+            nodeIntegration: true,
+            contextIsolation: false,
+        },
+    });
 mainWindow.loadURL('https://youtube.com');
   ```
 </details>
