@@ -98,7 +98,7 @@ D) Tomates
 
 </details>
   
-### **API de Micro-Transactions (Node.js + MySQL)**
+### **API de Micro-Transactions (ASPNET CORE API + REACT.VITE)**
 Backend pour gérer les achats d'items dans les jeux.
 
 - Gestion inventaire et transactions sécurisées
