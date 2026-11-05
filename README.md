@@ -1,216 +1,64 @@
-<!-- Bannière dynamique -->
 <p align="center">
-  <img src="https://github.com/HexaNexus28/HexaNexus28/blob/main/!DOCTYPE%20html%20html%20lang%3Dfr%20head%20meta%20charset%3DUTF-8%20meta%20name%3Dviewport%20content%3Dwidth%3Ddevice-width%2C%20initial-scale%3D1.0%20titleBanni%C3%A8re%20LinkedIn%20-%20Yawo%20ZOGLOtitle%20script%20src%3Dhttpscdn.tailwindcss.comscri.png" alt="Yawo ZOGLO — Architecte de l'Invisible | Bricoleur de Logique" width="100%" />
+  <a href="https://yawo-portfolio.vercel.app"><img src="assets/banner.svg" width="100%" alt="Yawo ZOGLO, développeur logiciel et IA, architecte de l'invisible"></a>
 </p>
 
----
-
-## **Yawo ZOGLO**
-
-**Paris, FR** | **Étudiant-Apprenti Développeur logiciel ESIEA** | <a href="https://yawo-portfolio.vercel.app" target="_blank">Portfolio</a> | <a href="https://www.linkedin.com/in/yawozoglo" target="_blank">LinkedIn</a>
-
----
-
-## **Mon ADN Technique**
-
-| **Écosystème** | **Outils & Philosophies** |
-|----------------|---------------------------|
-| **Architecture** | Architectures propres, Design Patterns, Algorithmes clairs et efficaces |
-| **Technologies** | **C#** • **PHP** • **JavaScript/TypeScript** • **React** • **Node.js** • **MySQL/PostgreSQL** • **Electron** • **TailwindCSS** |
-| **Méthodologies** | Automatisation • Optimisation • Débogage extrême • Scripts bash |
-| **Philosophies** | Code résilient • UX invisible • "Moins mais mieux" • "Si c'est compliqué, c'est mal conçu" |
-
----
-
-## **Projets Professionnels**
-
-### **Skyndar - Écosystème de Gestion de Rendez-vous**
-**Application bureau WPF + Site web PHP** - Synchronisation temps réel
-
-Développement d'un écosystème synchronisé comprenant :
-- Application bureau WPF pour administrateurs (gestion prestations, créneaux, suivi RDV)
-- Site web public pour prise de rendez-vous en ligne (Visio ou présentiel)
-- Synchronisation temps réel via MySQL
-- Interface intuitive pour gestion complète du cycle de rendez-vous
-
-**Stack** : C# • WPF • PHP • HTML5 • CSS • MySQL • Architecture Client-Serveur
-**Statut** : Stable
-
-<details><summary><b>Architecture Skyndar</b></summary>
-  
-```csharp
-// Exemple gestion des créneaux WPF
-public void GenererCreneaux(Prestation prestation, CalendarDay DayInWeek)
-{
-    DateTime Tdate = (DayInWeek != null) ? DayInWeek.Date : new DateTime(currentMonth.Year, currentMonth.Month, 1);
-    int offset = ((int)Tdate.DayOfWeek - (int)DayOfWeek.Monday + 7) % 7;
-    DateTime firstMonday = Tdate.AddDays(-offset);
-    DateTime lastSunday = firstMonday.AddDays(6);
-    ObservableCollection<Creneau> existingcreneaux = BDD.GetCreneauxForPrestation(prestation.Id, firstMonday,lastSunday);
-    ObservableCollection<CalendarDay> existingdayweeks = BDD.GetDayInWeeks(DayInWeek.Date);
-    DaysInWeeks.Clear();
-    
-    for (int j = 0; j < 7; j++)
-    {
-        DateTime jour = firstMonday.AddDays(j);
-        CalendarDay jourInDB = existingdayweeks.FirstOrDefault(d => d.Date.Date == jour.Date);
-        CalendarDay dayVM;
-
-        if (jourInDB != null)
-        {
-            dayVM = jourInDB;
-        }
-        else
-        {
-            dayVM = new CalendarDay(0, jour, jour.Day, true);
-            int newId = BDD.GetOrInsertId(dayVM);
-            dayVM.Id = newId;
-        }
-        DaysInWeeks.Add(dayVM);
-    }
-}
-```
-</details>
-
-### **Cookify - Plateforme Culinaire Interactive PHP/MySQL + Quiz Multijoueur Temps Réel**
-
-Plateforme web dédiée à la cuisine et découverte culinaire :
-
-- Gestion complète des recettes (CRUD, commentaires, favoris)
-- Quiz multijoueur en temps réel via ngrok
-- Dashboard personnel avec contenus favoris
-- Interface responsive adaptée mobile/desktop
-- Système de scoring et classement des joueurs
-
-**Stack** : PHP 8.x • MySQL • JavaScript • HTML/CSS • ngrok • Git
-**Statut** : Bêta privée
-
-**Repo** : [Cookify](https://github.com/HexaNexus28/Cookify.git)
-
-<details><summary><b>Exemple de quiz</b></summary>
-  
-Question: Quel ingrédient manque dans cette recette de carbonara ?
-
-A) Crème fraîche
-B) Lardons
-C) Œufs (bonne réponse !)
-D) Tomates
-
-</details>
-  
-### **API de Micro-Transactions (ASPNET CORE API + REACT.VITE)**
-Backend pour gérer les achats d'items dans les jeux.
-
-- Gestion inventaire et transactions sécurisées
-
-**Statut** : Stable
-
-**Repo** : [Micro-Transactions](https://github.com/HexaNexus28/micro-transactions-app.git)
-
-<details><summary><b>Structure de l'API</b></summary>
-  
-```csharp
-// Exemple de route pour voir les items
-public class ItemController : ControllerBase
-{
-    private readonly IItemService _itemService;
-
-    public ItemController(IItemService itemService)
-    {
-        _itemService = itemService;
-    }
-
-    // GET: api/<ItemController>
-    [HttpGet]
-    public async Task<IActionResult> GetItems()
-    {
-        var result = await _itemService.GetAllItemsAsync();
-        if (result.Success)
-        {
-            return Ok(result);
-        }
-        else return StatusCode(result.StatusCode, result);
-    }
-}
-```
-</details>
-
-### **Journal Éducatif (PHP + MySQL + JS)**
-Site éducatif interactif pour élèves et enseignants.
-
-- Articles, livres, ressources pédagogiques
-- Système de commentaires et likes
-
-**Statut** : Actif
-
-**URL** : <a href="https://www.journaleducatif.com" target="_blank">Journal Educatif</a>
-
-<details><summary><b>Extrait de code PHP</b></summary>
-
-```php
-// Récupération des articles récents
-$stmt = $pdo->query("SELECT * FROM articles ORDER BY date DESC LIMIT 5");
-$articles = $stmt->fetchAll(PDO::FETCH_ASSOC);
-```
-</details>
-
-### **My-Widget-App (React + Vite + Electron)**
-Application desktop pour écouter YouTube.
-
-- Lecture en arrière-plan, interface minimaliste
-
-**Statut** : Stable
-
-**Repo** : [Music Widget](https://github.com/HexaNexus28/music-widget.git)
-
-<details><summary><b>Extrait code Electron</b></summary>
-  
-```javascript
-// Création de la fenêtre principale
-function createWindow() {
-    mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
-        webPreferences: {
-            nodeIntegration: true,
-            contextIsolation: false,
-        },
-    });
-    mainWindow.loadURL('https://youtube.com');
-}
-```
-</details>
-
----
-
-## **Statistiques GitHub**
-
-<p align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api?username=HexaNexus28&show_icons=true&theme=radical&hide_border=true" width="48%" /> 
-  <img src="https://streak-stats.demolab.com/?user=HexaNexus28&theme=radical&hide_border=true" width="50%" /> 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HexaNexus28&layout=compact&theme=radical&hide_border=true" width="48%" /> 
+<p align="center">
+  <a href="https://yawo-portfolio.vercel.app">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/yawozoglo">LinkedIn</a> ·
+  <a href="README.en.md">English version</a>
 </p>
 
----
+<p align="center"><img src="assets/facts.svg" width="100%" alt="4 modules sur un noyau partagé, 4 projets open source, 8 fournisseurs IA routés, isolation multi-tenant RLS"></p>
 
-## **Philosophie de Développement**
+Étudiant-apprenti développeur logiciel et IA à l'[ESIEA](https://www.esiea.fr), basé à Paris.
+**Je construis des plateformes, pas des pages** : un noyau partagé (une base, un compte, un journal d'erreurs), des
+applications qui s'y branchent, et l'infrastructure qui les fait tenir en production.
+Ma ligne : *moins mais mieux*, et *si c'est compliqué, c'est mal conçu*.
 
-- Le code raconte une histoire, pas seulement fonctionne
-- La simplicité prime sur la complexité inutile
-- L'apprentissage est plus important que le savoir
-- L'échec est une opportunité d'amélioration
-- La résilience est une compétence technique
+<p align="center"><img src="assets/stack.svg" width="100%" alt="Stack : C#, .NET 9, ASP.NET Core, PHP, Laravel, Node.js, React 19, TypeScript, Vite, Tailwind, Electron, PostgreSQL, pgvector, Supabase, SQL Server, MariaDB, Ollama, Docker, Ansible, VPS, Vercel, CI/CD, Playwright"></p>
 
----
+## L'écosystème ShiftStar
 
-## **Contact**
+ShiftStar (challenges, votes et classements pour la restauration, en production depuis février 2026) n'est pas une
+application isolée : c'est un noyau et des modules qui s'y branchent. SkillScan en est un, d'autres servent
+l'administration. Ils partagent une base : la lecture passe par la RLS, l'écriture par des RPC, et les erreurs de chaque
+module remontent à une console. Le tout tourne sur un VPS géré par Ansible. Le code est privé : voici l'architecture.
 
-**Projets professionnels** : zoglopiere20@gmail.com  
-**Collaborations** : [LinkedIn](https://www.linkedin.com/in/yawozoglo)  
-**Développement** : GitHub
+<p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Schéma : ShiftStar, SkillScan et des modules internes autour d'un noyau partagé (Postgres, RLS, SSO, journal) ; une console reçoit les erreurs ; ORION a sa base propre ; le tout sur un VPS"></p>
 
----
+## Produits livrés
 
-<p align="center"> 
-  <i>"Le futur n'est pas une destination, c'est une direction. Et j'aime conduire vite — mais avec un bon GPS et une boîte à outils bien remplie."</i> 
-</p>
+Des produits en ligne pour des commanditaires. Leur code leur appartient, je les décris sans l'exposer.
+
+<table>
+  <tr>
+    <td><a href="https://edusocialnews.com"><img src="assets/card-edusocialnews.svg" width="100%" alt="EduSocialNews : articles, livres, podcasts et quiz, 845 ressources"></a></td>
+    <td><img src="assets/card-magnificience.svg" width="100%" alt="La Magnificience : quiz par compétence du programme officiel"></td>
+  </tr>
+  <tr>
+    <td><a href="https://profilux.vercel.app"><img src="assets/card-profilux.svg" width="100%" alt="Profilux : un profil, deux sorties, CV ATS et portfolio web"></a></td>
+    <td></td>
+  </tr>
+</table>
+
+## Open source
+
+<table>
+  <tr>
+    <td><a href="https://github.com/HexaNexus28/Rondo"><img src="assets/card-rondo.svg" width="100%" alt="Rondo : votre musique YouTube en mini-carte"></a></td>
+    <td><a href="https://github.com/HexaNexus28/Orion"><img src="assets/card-orion.svg" width="100%" alt="ORION : assistant IA personnel agentique"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/HexaNexus28/pulse-watch"><img src="assets/card-pulsewatch.svg" width="100%" alt="PulseWatch : un agent IA vérifie ses sources avant le digest"></a></td>
+    <td><a href="https://github.com/HexaNexus28/nexus-switch"><img src="assets/card-nexus-switch.svg" width="100%" alt="Nexus Switch : Claude Code sur 8 fournisseurs"></a></td>
+  </tr>
+</table>
+
+## Hobbies
+
+**Planétaire Kepler** : les planètes du Système solaire jusqu'au trou noir central de la galaxie, calculées en direct
+à partir des données du JPL. [Ouvrir la page](https://claude.ai/artifact/PVGdVNXczuGaDFkVoZXDPv)
+
+## Contact
+
+[Portfolio](https://yawo-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/yawozoglo)

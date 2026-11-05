@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="200" viewBox="0 0 560 200" role="img" aria-labelledby="t d"><title id="t">ORION</title><desc id="d">ORION : assistant IA personnel agentique. Logo du projet.</desc><style>
+:root{--bg:#0b0f14;--card:#0f151c;--line:#1f2b39;--fg:#e6edf3;--muted:#7d8da1;--accent:#3ddc97;--warn:#f2b84b}
+@media (prefers-color-scheme: light){:root{--bg:#f6f8fa;--card:#ffffff;--line:#d0d7de;--fg:#0d1117;--muted:#57606a;--accent:#0a8f5b;--warn:#9a6700}}
+text{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
+.bg{fill:var(--bg)}.card{fill:var(--card);stroke:var(--line);stroke-width:1}
+.t{fill:var(--fg);font-size:22px;font-weight:700}.p{fill:var(--muted);font-size:13px}
+.chip{fill:none;stroke:var(--line)}.chipt{fill:var(--muted);font-size:11px}
+.ac{fill:var(--accent)}.as{stroke:var(--accent);fill:none}.tag{fill:var(--accent);font-size:11px;letter-spacing:1px}
+.lock{fill:var(--warn);font-size:11px;letter-spacing:1px}
+.in{opacity:0;animation:up .8s ease-out .2s forwards}.in2{opacity:0;animation:up .8s ease-out .6s forwards}
+@keyframes up{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.in,.in2{opacity:1}}
+</style><rect class="bg" width="560" height="200"/><rect class="card" x=".5" y=".5" width="559" height="199" rx="12"/><rect x="0.5" y="0.5" width="4" height="199" rx="2" fill="#22d3ee"/><text class="tag in" x="28" y="40" style="fill:#22d3ee">// OPEN SOURCE · IA AGENTIQUE</text><text class="t in" x="28" y="72">ORION</text><g class="in2"><text class="p" x="28" y="100">Il agit sur votre PC, se souvient,</text><text class="p" x="28" y="118">et décide seul quand vous notifier.</text><rect class="chip" x="28" y="150" width="54" height="22" rx="11"/><text class="chipt" x="38" y="165">.NET 9</text><rect class="chip" x="89.6" y="150" width="67" height="22" rx="11"/><text class="chipt" x="99.6" y="165">React 19</text><rect class="chip" x="164.39999999999998" y="150" width="67" height="22" rx="11"/><text class="chipt" x="174.39999999999998" y="165">Three.js</text><rect class="chip" x="239.2" y="150" width="67" height="22" rx="11"/><text class="chipt" x="249.2" y="165">pgvector</text></g><g class="in2"><clipPath id="co"><rect x="400" y="40" width="120" height="120" rx="26"/></clipPath><g clip-path="url(#co)"><svg x="400" y="40" width="120" height="120" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0a0a0f"/>
+  <g fill="none" stroke="#22d3ee" transform="rotate(-90 256 256)">
+    <circle cx="256" cy="256" r="176" stroke-width="24" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;0;0;100" keyTimes="0;0.25;0.85;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1"/>
+    </circle>
+    <circle cx="256" cy="256" r="104" stroke-width="12" stroke-linecap="round" opacity="0.6" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.08;0.33;0.85;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1"/>
+    </circle>
+  </g>
+  <circle cx="256" cy="256" r="0" fill="#22d3ee">
+    <animate attributeName="r" values="0;0;32;32;0" keyTimes="0;0.25;0.36;0.85;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg></g></g></svg>
