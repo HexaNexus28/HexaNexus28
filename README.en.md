@@ -17,13 +17,14 @@ My line: *less but better*, and *if it's complicated, it's badly designed*.
 
 ## The ShiftStar ecosystem
 
-ShiftStar (challenges, votes and rankings for restaurants, in production since February 2026) is not a standalone
-app: it is a core and modules that plug into it. SkillScan is one, others serve administration. They share one
-database isolated per site (RLS), whose chosen access principle is to read under RLS and write through RPCs, and every
-module's errors flow into a console. All of it runs on a
-VPS managed with Ansible. The code is private, so here is the architecture.
+ShiftStar (challenges, votes and rankings for restaurants, in production since February 2026) is the central piece of a platform:
+SkillScan evaluates skills with the same account, a console tracks sites and errors, and a marketing site and its documentation are
+public. The principle that holds it together: **a tenant is a site**. An organization groups sites and crosses them only through an
+explicit path, never by loosening the isolation rule. Isolation is carried by the database (RLS and a write trigger), and an
+executable conformance script checks this model before and after every production release. Frontends run on Vercel, data on a
+self-hosted VPS (Supabase, since October 2026) managed with Ansible. The code is private, so here is the architecture.
 
-<p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Diagram: ShiftStar, SkillScan and internal modules around a shared core (Postgres, RLS, SSO, log); a console receives the errors; ORION has its own database; everything on a VPS"></p>
+<p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Architecture: frontends on Vercel (ShiftStar, SkillScan, console, marketing site) talk to a data layer self-hosted on a VPS (Postgres with RLS, single sign-on, realtime, functions); on the right, the data boundary: each site is a tenant, an organization groups them and crosses them through an explicit path"></p>
 
 ## Delivered products
 

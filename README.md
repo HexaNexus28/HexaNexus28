@@ -17,12 +17,15 @@ Ma ligne : *moins mais mieux*, et *si c'est compliqué, c'est mal conçu*.
 
 ## L'écosystème ShiftStar
 
-ShiftStar (challenges, votes et classements pour la restauration, en production depuis février 2026) n'est pas une
-application isolée : c'est un noyau et des modules qui s'y branchent. SkillScan en est un, d'autres servent
-l'administration. Ils partagent une base isolée par site (RLS), dont le principe d'accès retenu est de lire sous RLS et d'écrire par des
-RPC, et les erreurs de chaque module remontent à une console. Le tout tourne sur un VPS géré par Ansible. Le code est privé : voici l'architecture.
+ShiftStar (challenges, votes et classements pour la restauration, en production depuis février 2026) est la brique centrale d'une
+plateforme : SkillScan évalue les compétences avec le même compte, une console suit les sites et les erreurs, un site vitrine et
+sa documentation sont publics. Le principe qui tient l'ensemble : **un tenant est un site**. Une organisation regroupe des sites
+et ne les franchit que par un chemin explicite, jamais en assouplissant la règle d'isolation. L'isolation est portée par la base
+(RLS et trigger d'écriture), et un script de conformité exécutable vérifie ce modèle avant et après chaque mise en production.
+Les frontends sont sur Vercel, les données sur un VPS auto-hébergé (Supabase, depuis octobre 2026) géré par Ansible. Le code est
+privé : voici l'architecture.
 
-<p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Schéma : ShiftStar, SkillScan et des modules internes autour d'un noyau partagé (Postgres, RLS, SSO, journal) ; une console reçoit les erreurs ; ORION a sa base propre ; le tout sur un VPS"></p>
+<p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Architecture : les frontends sur Vercel (ShiftStar, SkillScan, console, site vitrine) parlent à une couche de données auto-hébergée sur un VPS (Postgres avec RLS, authentification unique, temps réel, fonctions) ; à droite, la frontière de données : chaque site est un tenant, une organisation les regroupe et les franchit par un chemin explicite"></p>
 
 ## Produits livrés
 
