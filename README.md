@@ -21,8 +21,8 @@ Ma ligne : *moins mais mieux*, et *si c'est compliqué, c'est mal conçu*.
 
 ShiftStar (challenges, votes et classements pour la restauration, en production depuis février 2026) n'est pas une
 application isolée : c'est un noyau et des modules qui s'y branchent. SkillScan en est un, d'autres servent
-l'administration. Ils partagent une base : la lecture passe par la RLS, l'écriture par des RPC, et les erreurs de chaque
-module remontent à une console. Le tout tourne sur un VPS géré par Ansible. Le code est privé : voici l'architecture.
+l'administration. Ils partagent une base isolée par site (RLS), dont le principe d'accès retenu est de lire sous RLS et d'écrire par des
+RPC, et les erreurs de chaque module remontent à une console. Le tout tourne sur un VPS géré par Ansible. Le code est privé : voici l'architecture.
 
 <p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Schéma : ShiftStar, SkillScan et des modules internes autour d'un noyau partagé (Postgres, RLS, SSO, journal) ; une console reçoit les erreurs ; ORION a sa base propre ; le tout sur un VPS"></p>
 
@@ -32,7 +32,7 @@ Des produits en ligne pour des commanditaires. Leur code leur appartient, je les
 
 <table>
   <tr>
-    <td><a href="https://edusocialnews.com"><img src="assets/card-edusocialnews.svg" width="100%" alt="EduSocialNews : articles, livres, podcasts et quiz, 845 ressources"></a></td>
+    <td><a href="https://edusocialnews.com"><img src="assets/card-edusocialnews.svg" width="100%" alt="EduSocialNews : articles, livres, podcasts et quiz"></a></td>
     <td><img src="assets/card-magnificience.svg" width="100%" alt="La Magnificience : quiz par compétence du programme officiel"></td>
   </tr>
   <tr>

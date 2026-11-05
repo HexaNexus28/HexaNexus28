@@ -21,7 +21,8 @@ My line: *less but better*, and *if it's complicated, it's badly designed*.
 
 ShiftStar (challenges, votes and rankings for restaurants, in production since February 2026) is not a standalone
 app: it is a core and modules that plug into it. SkillScan is one, others serve administration. They share one
-database: reads go through RLS, writes through RPCs, and every module's errors flow into a console. All of it runs on a
+database isolated per site (RLS), whose chosen access principle is to read under RLS and write through RPCs, and every
+module's errors flow into a console. All of it runs on a
 VPS managed with Ansible. The code is private, so here is the architecture.
 
 <p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Diagram: ShiftStar, SkillScan and internal modules around a shared core (Postgres, RLS, SSO, log); a console receives the errors; ORION has its own database; everything on a VPS"></p>
@@ -32,7 +33,7 @@ Live products built for their owners. The code is theirs, so they are described 
 
 <table>
   <tr>
-    <td><a href="https://edusocialnews.com"><img src="assets/card-edusocialnews.svg" width="100%" alt="EduSocialNews: articles, books, podcasts and quizzes, 845 resources"></a></td>
+    <td><a href="https://edusocialnews.com"><img src="assets/card-edusocialnews.svg" width="100%" alt="EduSocialNews: articles, books, podcasts and quizzes"></a></td>
     <td><img src="assets/card-magnificience.svg" width="100%" alt="La Magnificience: competency-based quizzes on the official curriculum"></td>
   </tr>
   <tr>
