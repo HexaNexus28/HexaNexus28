@@ -1,5 +1,11 @@
 <p align="center">
-  <a href="https://yawo-portfolio.vercel.app"><img src="assets/banner.svg" width="100%" alt="Yawo Zoglo, software and AI developer in Paris: multi-tenant platforms, AI agents, infrastructure"></a>
+  <a href="https://yawo-portfolio.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+      <img src="assets/banner-dark.svg" width="100%" alt="Yawo Zoglo, software and AI developer: multi-tenant platforms, AI agents, infrastructure">
+    </picture>
+  </a>
 </p>
 
 <p align="center">
@@ -8,7 +14,7 @@
   <a href="README.md">Version française</a>
 </p>
 
-Software and AI engineering apprentice at [ESIEA](https://www.esiea.fr), based in Paris.
+Software and AI engineering apprentice at [ESIEA](https://www.esiea.fr).
 **I build platforms, not pages**: a shared core (one database, one account, one error log), apps that plug into it,
 and the infrastructure that keeps them running in production.
 My line: *less but better*, and *if it's complicated, it's badly designed*.

@@ -1,5 +1,11 @@
 <p align="center">
-  <a href="https://yawo-portfolio.vercel.app"><img src="assets/banner.svg" width="100%" alt="Yawo Zoglo, développeur logiciel et IA à Paris : plateformes multi-tenant, agents IA, infrastructure"></a>
+  <a href="https://yawo-portfolio.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+      <img src="assets/banner-dark.svg" width="100%" alt="Yawo Zoglo, développeur logiciel et IA : plateformes multi-tenant, agents IA, infrastructure">
+    </picture>
+  </a>
 </p>
 
 <p align="center">
@@ -8,7 +14,7 @@
   <a href="README.en.md">English version</a>
 </p>
 
-Étudiant-apprenti développeur logiciel et IA à l'[ESIEA](https://www.esiea.fr), basé à Paris.
+Étudiant-apprenti développeur logiciel et IA à l'[ESIEA](https://www.esiea.fr).
 **Je construis des plateformes, pas des pages** : un noyau partagé (une base, un compte, un journal d'erreurs), des
 applications qui s'y branchent, et l'infrastructure qui les fait tenir en production.
 Ma ligne : *moins mais mieux*, et *si c'est compliqué, c'est mal conçu*.
