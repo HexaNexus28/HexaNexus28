@@ -68,8 +68,9 @@ Des produits en ligne pour des commanditaires. Leur code leur appartient, je les
 
 ## Hobbies
 
-**Planétaire Kepler** : les planètes du Système solaire jusqu'au trou noir central de la galaxie, calculées en direct
-à partir des données du JPL. [Ouvrir la page](https://claude.ai/artifact/PVGdVNXczuGaDFkVoZXDPv)
+<p align="center"><a href="https://hexanexus28.github.io/Cosmos/kepler/"><img src="assets/kepler.png" width="760" alt="Planétaire Kepler : la page réelle, vue Système solaire. La comète de Halley balaie des aires égales en des temps égaux."></a></p>
+
+**Planétaire Kepler** : les planètes du Système solaire jusqu'au trou noir central de la galaxie, calculées en direct à partir des données du JPL. [Ouvrir la simulation](https://hexanexus28.github.io/Cosmos/kepler/) Le [carnet de recherche Cosmos](https://github.com/HexaNexus28/Cosmos) prolonge la démarche à l'échelle de l'univers.
 
 ## Contact
 

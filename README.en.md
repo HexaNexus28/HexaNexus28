@@ -69,8 +69,9 @@ Live products built for their owners. The code is theirs, so they are described 
 
 ## Hobbies
 
-**Kepler Planetarium**: planets of the Solar System up to the galaxy's central black hole, computed live
-from JPL data. [Open the page](https://claude.ai/artifact/PVGdVNXczuGaDFkVoZXDPv)
+<p align="center"><a href="https://hexanexus28.github.io/Cosmos/kepler/"><img src="assets/kepler.png" width="760" alt="Kepler Planetarium: the real page, Solar System view. Halley's comet sweeps equal areas in equal times."></a></p>
+
+**Kepler Planetarium**: planets of the Solar System up to the galaxy's central black hole, computed live from JPL data. [Open the simulation](https://hexanexus28.github.io/Cosmos/kepler/) The [Cosmos research notebook](https://github.com/HexaNexus28/Cosmos) extends the approach to the scale of the universe.
 
 ## Contact
 
