@@ -8,10 +8,9 @@
   <a href="README.md">Version française</a>
 </p>
 
-Software and AI engineering apprentice at [ESIEA](https://www.esiea.fr).
-**I build platforms, not pages**: a shared core (one database, one account, one error log), apps that plug into it,
-and the infrastructure that keeps them running in production.
-My line: *less but better*, and *if it's complicated, it's badly designed*.
+Software and AI engineering apprentice at [ESIEA](https://www.esiea.fr). I design and run my own products:
+the code, the database, the server, the security. ShiftStar has been in production since February 2026.
+*Less but better, and if it's complicated, it's badly designed.*
 
 <p align="center"><img src="assets/stack.svg" width="100%" alt="Stack: C#, .NET 9, ASP.NET Core, PHP, Laravel, Node.js, React 19, TypeScript, Vite, Tailwind, Electron, PostgreSQL, pgvector, Supabase, SQL Server, MariaDB, Ollama, Docker, Ansible, VPS, Vercel, CI/CD, Playwright"></p>
 

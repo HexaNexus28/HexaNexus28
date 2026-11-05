@@ -8,10 +8,9 @@
   <a href="README.en.md">English version</a>
 </p>
 
-Étudiant-apprenti développeur logiciel et IA à l'[ESIEA](https://www.esiea.fr).
-**Je construis des plateformes, pas des pages** : un noyau partagé (une base, un compte, un journal d'erreurs), des
-applications qui s'y branchent, et l'infrastructure qui les fait tenir en production.
-Ma ligne : *moins mais mieux*, et *si c'est compliqué, c'est mal conçu*.
+Étudiant-apprenti développeur logiciel et IA à l'[ESIEA](https://www.esiea.fr). Je conçois et j'exploite moi-même mes produits :
+le code, la base de données, le serveur, la sécurité. ShiftStar est en production depuis février 2026.
+*Moins mais mieux, et si c'est compliqué, c'est mal conçu.*
 
 <p align="center"><img src="assets/stack.svg" width="100%" alt="Stack : C#, .NET 9, ASP.NET Core, PHP, Laravel, Node.js, React 19, TypeScript, Vite, Tailwind, Electron, PostgreSQL, pgvector, Supabase, SQL Server, MariaDB, Ollama, Docker, Ansible, VPS, Vercel, CI/CD, Playwright"></p>
 
