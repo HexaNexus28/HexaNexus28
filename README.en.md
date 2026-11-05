@@ -8,8 +8,6 @@
   <a href="README.md">Version française</a>
 </p>
 
-<p align="center"><img src="assets/facts.svg" width="100%" alt="4 modules on a shared core, 4 open source projects, 8 routed AI providers, RLS multi-tenant isolation"></p>
-
 Software and AI engineering apprentice at [ESIEA](https://www.esiea.fr), based in Paris.
 **I build platforms, not pages**: a shared core (one database, one account, one error log), apps that plug into it,
 and the infrastructure that keeps them running in production.

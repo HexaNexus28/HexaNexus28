@@ -8,8 +8,6 @@
   <a href="README.en.md">English version</a>
 </p>
 
-<p align="center"><img src="assets/facts.svg" width="100%" alt="4 modules sur un noyau partagé, 4 projets open source, 8 fournisseurs IA routés, isolation multi-tenant RLS"></p>
-
 Étudiant-apprenti développeur logiciel et IA à l'[ESIEA](https://www.esiea.fr), basé à Paris.
 **Je construis des plateformes, pas des pages** : un noyau partagé (une base, un compte, un journal d'erreurs), des
 applications qui s'y branchent, et l'infrastructure qui les fait tenir en production.
