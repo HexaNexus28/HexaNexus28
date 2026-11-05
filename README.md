@@ -32,12 +32,16 @@ Des produits en ligne pour des commanditaires. Leur code leur appartient, je les
 
 <table>
   <tr>
-    <td><a href="https://edusocialnews.com"><img src="assets/card-edusocialnews.svg" width="100%" alt="EduSocialNews : articles, livres, podcasts et quiz"></a></td>
-    <td><img src="assets/card-magnificience.svg" width="100%" alt="La Magnificience : quiz par compétence du programme officiel"></td>
+    <td width="76" valign="top"><img src="assets/logos/edusocialnews.jpg" width="56" height="56" alt="Logo EduSocialNews"></td>
+    <td><b><a href="https://edusocialnews.com">EduSocialNews</a></b><br>Plateforme éducative francophone : articles, livres, podcasts et quiz. Migrée en juin 2026 de son ancien hébergeur vers un VPS Docker.<br><sub>Laravel 9 · PHP 8.2 · MariaDB · Docker · Ansible</sub></td>
   </tr>
   <tr>
-    <td><a href="https://profilux.vercel.app"><img src="assets/card-profilux.svg" width="100%" alt="Profilux : un profil, deux sorties, CV ATS et portfolio web"></a></td>
-    <td></td>
+    <td width="76" valign="top"><img src="assets/logos/la-magnificience.png" width="56" height="56" alt="Logo La Magnificience"></td>
+    <td><b>La Magnificience</b><br>SaaS de quiz alignés sur le programme officiel (APC) des collèges togolais : formules mathématiques, figures géométriques et progression de l'élève qui le suit d'un téléphone à l'autre, y compris hors ligne. En pilote.<br><sub>React 19 · Supabase · KaTeX · multi-tenant</sub></td>
+  </tr>
+  <tr>
+    <td width="76" valign="top"><img src="assets/logos/profilux.svg" width="56" height="56" alt="Logo Profilux"></td>
+    <td><b><a href="https://profilux.vercel.app">Profilux</a></b><br>Un profil saisi une fois, deux sorties : un CV en PDF que les ATS lisent vraiment (texte sélectionnable, ordre de lecture contrôlé même en deux colonnes, score ATS sur 100) et un portfolio web public indexé, en 6 thèmes.<br><sub>Next.js 15 · Supabase · react-pdf</sub></td>
   </tr>
 </table>
 
@@ -45,12 +49,20 @@ Des produits en ligne pour des commanditaires. Leur code leur appartient, je les
 
 <table>
   <tr>
-    <td><a href="https://github.com/HexaNexus28/Rondo"><img src="assets/card-rondo.svg" width="100%" alt="Rondo : votre musique YouTube en mini-carte"></a></td>
-    <td><a href="https://github.com/HexaNexus28/Orion"><img src="assets/card-orion.svg" width="100%" alt="ORION : assistant IA personnel agentique"></a></td>
+    <td width="76" valign="top"><img src="assets/logos/rondo.svg" width="56" height="56" alt="Logo Rondo"></td>
+    <td><b><a href="https://github.com/HexaNexus28/Rondo">Rondo</a></b><br>Lecteur de musique YouTube en fenêtre sans bordure ou en mini-carte de 340 × 84 px, au premier plan pendant que vous travaillez. Ctrl+V ajoute une playlist entière ; sans compte, rien n'est collecté.<br><sub>Electron · React 19 · Vite</sub></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/HexaNexus28/pulse-watch"><img src="assets/card-pulsewatch.svg" width="100%" alt="PulseWatch : un agent IA vérifie ses sources avant le digest"></a></td>
-    <td><a href="https://github.com/HexaNexus28/nexus-switch"><img src="assets/card-nexus-switch.svg" width="100%" alt="Nexus Switch : Claude Code sur 8 fournisseurs"></a></td>
+    <td width="76" valign="top"><img src="assets/logos/orion.svg" width="56" height="56" alt="Logo ORION"></td>
+    <td><b><a href="https://github.com/HexaNexus28/Orion">ORION</a></b><br>Assistant IA personnel : 24 outils dont les actions du poste Windows, confirmation avant toute action destructive, mémoire à long terme, et un décideur qui choisit d'émettre, de différer ou d'écarter chaque notification.<br><sub>.NET 9 · React 19 · Three.js · pgvector</sub></td>
+  </tr>
+  <tr>
+    <td width="76" valign="top"><img src="assets/logos/pulsewatch.svg" width="56" height="56" alt="Logo PulseWatch"></td>
+    <td><b><a href="https://github.com/HexaNexus28/pulse-watch">PulseWatch</a></b><br>Veille technologique : vos flux RSS, des tendances calculées par catégorie (TF-IDF) et un digest où un agent IA vérifie chaque affirmation contre ses sources avant publication.<br><sub>ASP.NET Core · React 19 · Google ADK</sub></td>
+  </tr>
+  <tr>
+    <td width="76" valign="top"><img src="assets/logos/nexus-switch.svg" width="56" height="56" alt="Logo Nexus Switch"></td>
+    <td><b><a href="https://github.com/HexaNexus28/nexus-switch">Nexus Switch</a></b><br>Lance Claude Code sur 8 fournisseurs d'IA, gratuits d'abord : modèles triés du moins cher au plus cher, coût réel affiché avant le lancement, clés protégées par le système.<br><sub>TypeScript · Ink · npm</sub></td>
   </tr>
 </table>
 

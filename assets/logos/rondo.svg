@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Rondo">
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="512" y2="512">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#14141c"/>
+  <g fill="none" stroke="url(#g)" stroke-width="38" stroke-linecap="round">
+    <path d="M256 88 A168 168 0 1 0 424 256" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;0;0;100" keyTimes="0;0.25;0.85;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1"/>
+    </path>
+    <path d="M256 168 A88 88 0 1 0 344 256" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.08;0.33;0.85;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1"/>
+    </path>
+  </g>
+  <circle cx="256" cy="256" r="0" fill="url(#g)">
+    <animate attributeName="r" values="0;0;34;34;0" keyTimes="0;0.25;0.36;0.85;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="396" cy="116" r="0" fill="#e879f9">
+    <animate attributeName="r" values="0;0;28;28;0" keyTimes="0;0.36;0.46;0.85;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>
