@@ -26,9 +26,20 @@ privé : voici l'architecture.
 
 <p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Architecture : les frontends sur Vercel (ShiftStar, SkillScan, console, site vitrine) parlent à une couche de données auto-hébergée sur un VPS (Postgres avec RLS, authentification unique, temps réel, fonctions) ; à droite, la frontière de données : chaque site est un tenant, une organisation les regroupe et les franchit par un chemin explicite"></p>
 
-## Produits livrés
+## Mes produits
 
-Des produits en ligne pour des commanditaires. Leur code leur appartient, je les décris sans l'exposer.
+ShiftStar, présenté ci-dessus, et Profilux sont des produits que je fonde et développe moi-même. Leur code est privé.
+
+<table>
+  <tr>
+    <td width="76" valign="top"><img src="assets/logos/profilux.svg" width="56" height="56" alt="Logo Profilux"></td>
+    <td><b><a href="https://profilux.vercel.app">Profilux</a></b><br>Un profil saisi une fois, deux sorties : un CV en PDF que les ATS lisent vraiment (texte sélectionnable, ordre de lecture contrôlé même en deux colonnes, score ATS sur 100) et un portfolio web public indexé, en 6 thèmes.<br><sub>Next.js 15 · Supabase · react-pdf</sub></td>
+  </tr>
+</table>
+
+## Pour des commanditaires
+
+Des produits en ligne construits pour leurs propriétaires. Leur code leur appartient, je les décris sans l'exposer.
 
 <table>
   <tr>
@@ -38,10 +49,6 @@ Des produits en ligne pour des commanditaires. Leur code leur appartient, je les
   <tr>
     <td width="76" valign="top"><img src="assets/logos/la-magnificience.png" width="56" height="56" alt="Logo La Magnificience"></td>
     <td><b>La Magnificience</b><br>SaaS de quiz alignés sur le programme officiel (APC) des collèges togolais : formules mathématiques, figures géométriques et progression de l'élève qui le suit d'un téléphone à l'autre, y compris hors ligne. En pilote.<br><sub>React 19 · Supabase · KaTeX · multi-tenant</sub></td>
-  </tr>
-  <tr>
-    <td width="76" valign="top"><img src="assets/logos/profilux.svg" width="56" height="56" alt="Logo Profilux"></td>
-    <td><b><a href="https://profilux.vercel.app">Profilux</a></b><br>Un profil saisi une fois, deux sorties : un CV en PDF que les ATS lisent vraiment (texte sélectionnable, ordre de lecture contrôlé même en deux colonnes, score ATS sur 100) et un portfolio web public indexé, en 6 thèmes.<br><sub>Next.js 15 · Supabase · react-pdf</sub></td>
   </tr>
 </table>
 

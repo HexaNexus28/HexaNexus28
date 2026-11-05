@@ -25,7 +25,18 @@ self-hosted VPS (Supabase, since October 2026) managed with Ansible. The code is
 
 <p align="center"><img src="assets/ecosystem.svg" width="100%" alt="Architecture: frontends on Vercel (ShiftStar, SkillScan, console, marketing site) talk to a data layer self-hosted on a VPS (Postgres with RLS, single sign-on, realtime, functions); on the right, the data boundary: each site is a tenant, an organization groups them and crosses them through an explicit path"></p>
 
-## Delivered products
+## My products
+
+ShiftStar, described above, and Profilux are products I found and build myself. Their code is private.
+
+<table>
+  <tr>
+    <td width="76" valign="top"><img src="assets/logos/profilux.svg" width="56" height="56" alt="Profilux logo"></td>
+    <td><b><a href="https://profilux.vercel.app">Profilux</a></b><br>One profile entered once, two outputs: a PDF resume that ATS systems actually read (selectable text, controlled reading order even in two columns, ATS score out of 100) and a public, indexed web portfolio in 6 themes.<br><sub>Next.js 15 · Supabase · react-pdf</sub></td>
+  </tr>
+</table>
+
+## For clients
 
 Live products built for their owners. The code is theirs, so they are described here without being exposed.
 
@@ -37,10 +48,6 @@ Live products built for their owners. The code is theirs, so they are described 
   <tr>
     <td width="76" valign="top"><img src="assets/logos/la-magnificience.png" width="56" height="56" alt="La Magnificience logo"></td>
     <td><b>La Magnificience</b><br>SaaS of quizzes aligned with the official curriculum (APC) for Togolese middle schools: math formulas, geometry figures, and student progress that follows them across phones, including offline. In pilot.<br><sub>React 19 · Supabase · KaTeX · multi-tenant</sub></td>
-  </tr>
-  <tr>
-    <td width="76" valign="top"><img src="assets/logos/profilux.svg" width="56" height="56" alt="Profilux logo"></td>
-    <td><b><a href="https://profilux.vercel.app">Profilux</a></b><br>One profile entered once, two outputs: a PDF resume that ATS systems actually read (selectable text, controlled reading order even in two columns, ATS score out of 100) and a public, indexed web portfolio in 6 themes.<br><sub>Next.js 15 · Supabase · react-pdf</sub></td>
   </tr>
 </table>
 
