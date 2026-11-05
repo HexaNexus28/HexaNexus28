@@ -1,11 +1,5 @@
 <p align="center">
-  <a href="https://yawo-portfolio.vercel.app">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-      <img src="assets/banner-dark.svg" width="100%" alt="Yawo Zoglo, développeur logiciel et IA : plateformes multi-tenant, agents IA, infrastructure">
-    </picture>
-  </a>
+  <a href="https://yawo-portfolio.vercel.app"><img src="assets/banner.svg" width="100%" alt="Yawo Zoglo, développeur logiciel et IA : SaaS pour la restauration, plateformes éducatives, agents IA, de la conception à la production"></a>
 </p>
 
 <p align="center">
