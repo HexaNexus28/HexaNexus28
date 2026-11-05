@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://yawo-portfolio.vercel.app"><img src="assets/banner.svg" width="100%" alt="Yawo ZOGLO, software and AI developer, architect of the invisible"></a>
+  <a href="https://yawo-portfolio.vercel.app"><img src="assets/banner.svg" width="100%" alt="Yawo Zoglo, software and AI developer in Paris: multi-tenant platforms, AI agents, infrastructure"></a>
 </p>
 
 <p align="center">
